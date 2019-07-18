@@ -190,7 +190,7 @@
     }
     // Give the parameter a variable name
     var dynamicContent = getParameterByName('dc');
-    if (dynamicContent) {
+    if (dynamicContent != null) {
       document.getElementById("title").innerHTML = `Privacy Policy of the ${dynamicContent} Application`
     }
 
